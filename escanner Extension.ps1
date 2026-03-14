@@ -14,7 +14,7 @@ $Carpetas = @(
 $ExtensionesFalsas = @(".mp4", ".mp3", ".txt", ".png", ".jpg", ".docx", ".pdf")
 $CamuflajesEncontrados = 0
 
-foreach ($Carpeta en $Carpetas) {
+foreach ($Carpeta in $Carpetas) {
     # Buscar archivos con las extensiones de la lista
     $Archivos = Get-ChildItem -Path $Carpeta -File -Recurse -ErrorAction SilentlyContinue | Where-Object { $ExtensionesFalsas -contains $_.Extension }
 
