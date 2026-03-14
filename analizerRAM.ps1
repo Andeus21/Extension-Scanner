@@ -1,5 +1,5 @@
 # ====================================================================
-# ESCÁNER  - MEMORIA RAM
+# ESCÁNER  - Analizer ( MEMORIA RAM )
 # ====================================================================
 
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
